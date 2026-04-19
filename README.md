@@ -1,33 +1,73 @@
 # Convergence for Emergence (C4E)
 
-A systems thinking framework designed to break down silos between technical disciplines, enabling organizations to create emergent capabilities greater than the sum of their individual parts.
+A systems thinking framework for breaking down silos between technical disciplines — enabling organizations to create emergent capabilities greater than the sum of their individual parts.
 
-## What's Here
+---
 
-| Document | Purpose |
-|----------|---------|
-| [Convergence for Emergence Framework.md](./Convergence%20for%20Emergence%20Framework.md) | Core framework: principles, maturity model, implementation roadmap |
-| [Framework Critique.md](./Framework%20Critique.md) | Structured critique identifying gaps and refinement areas |
-| [C4E Ethics Lens.md](./C4E%20Ethics%20Lens.md) | Ethics-specific extension of the framework |
-| [C4E Ethics Integrations.md](./C4E%20Ethics%20Integrations.md) | Integration points for ethics governance |
-| [C4E Leadership Lens.md](./C4E%20Leadership%20Lens.md) | Leadership evolution across maturity levels |
-| [Ethics Lens for Convergence for Emergence (C4E).md](./Ethics%20Lens%20for%20Convergence%20for%20Emergence%20(C4E).md) | Detailed ethics framework integration |
-| [Data Management Lens for Convergence for Emergence.md](./Data%20Management%20Lens%20for%20Convergence%20for%20Emergence.md) | Data management domain-specific guidance |
-| [Corporate Ethics Measurement Landscape.md](./Corporate%20Ethics%20Measurement%20Landscape.md) | Survey of existing ethics measurement approaches |
-| [BACKLOG.md](./BACKLOG.md) | Prioritized list of known framework development work |
+## Repository Structure
 
-## Collaboration Approach
+```
+framework/
+├── framework.md                          Core framework: principles, maturity model, roadmap
+└── critique.md                           Structured critique identifying gaps and open questions
 
-This project uses a multi-perspective critical analysis method. Key analytical roles:
+lenses/                                   Each lens = a domain-specific extension of the framework
+│                                         Convention: <domain>-lens.md + <domain>-integrations.md per folder
+├── ethics/
+│   ├── ethics-lens.md                    Ethics framework extension
+│   ├── ethics-integrations.md            Ethics governance integration points
+│   └── ethics-measurement-integration.md Connecting ethics to existing measurement systems (ESG, compliance)
+├── leadership/
+│   ├── leadership-lens.md                Leadership evolution across maturity levels
+│   └── leadership-integrations.md        [stub] Integration with leadership frameworks and HR systems
+├── data/
+│   ├── data-delivery-lens.md             Data delivery and engineering discipline across maturity levels
+│   ├── data-measurement-integration.md   Mapping external data maturity frameworks (TDWI, DMM, DCAM) to C4E levels
+│   └── data-integrations.md              [stub] Integration with data governance frameworks and platforms
+├── knowledge-governance/
+│   ├── knowledge-governance-lens.md      [active] How organizations represent, bound, discover, and govern domain knowledge — foundation for agent scoping and cross-domain emergence
+│   └── knowledge-governance-integrations.md  [stub] Ontology tooling, knowledge graphs, vector/hybrid architectures by scale
+└── hr-training/
+    ├── hr-training-lens.md               Values operationalization through hiring, performance, incentives, and development — prerequisite for behavioral alignment before agent alignment
+    └── hr-training-integrations.md       [stub] Competency frameworks, HRIS integration, ONA, job architecture, DEI considerations
 
-- **BA** — Business Analyst: data-driven, industry benchmarks
-- **MC** — Management Consultant: transformation experience, organizational models  
-- **EP** — Ethics Professor: scholarly research, regulatory trends
-- **SA** — Systems Architect: enterprise implementation, integration patterns
-- **CM** — Change Management Specialist: adoption metrics, behavioral economics
+research/
+├── corporate-ethics-measurement-landscape.md     Survey of existing ethics measurement approaches
+└── data-management-maturity-framework-landscape.md  Survey of data maturity frameworks (TDWI, DMM, DCAM, DAMA, FAIR); landscape changes 2024–2026
+```
 
-Each perspective steelmans proposals before critiquing — agreement is earned, not assumed.
+> **Lens convention:** every lens folder is expected to contain a `*-lens.md` (the domain extension) and a `*-integrations.md` (how it connects to external frameworks, systems, and complementary disciplines). Ethics is the furthest developed; knowledge governance is actively being developed. The data lens covers delivery and engineering discipline — knowledge governance is a separate lens covering knowledge representation, domain boundaries, and agent scoping.
+
+---
+
+## Working Group Collaboration
+
+This project uses a **multi-perspective critical analysis** method. Contributions should be grounded in domain experience — cite relevant frameworks, case studies, or data. Agreement is earned through debate, not assumed.
+
+**Core analytical roles:**
+
+| Role | Focus |
+|------|-------|
+| **BA** — Business Analyst | Data-driven, industry benchmarks, business metrics |
+| **MC** — Management Consultant | Transformation experience, organizational models |
+| **EP** — Ethics Professor | Scholarly research, regulatory trends, precedents |
+| **SA** — Systems Architect | Enterprise implementation, integration patterns |
+| **CM** — Change Management Specialist | Adoption metrics, behavioral economics |
+
+---
 
 ## Contributing
 
-See [BACKLOG.md](./BACKLOG.md) for known work items. When contributing, ground arguments in domain experience and cite relevant frameworks, case studies, or data.
+Browse [open issues](../../issues) for active work items. Issues are organized by label:
+
+- `framework` — core framework development
+- `measurement` — metrics and operationalization
+- `people-culture` — human, cultural, and governance factors
+- `technical` — tooling and technical implementation
+- `external` — applicability, scale, cross-cultural factors
+- `case-studies` — examples and ecosystem integration
+- `ethics` — ethics governance components
+- `tooling-community` — assessment tools, practitioner community
+- `training` — curriculum and enablement
+
+When contributing, open a discussion on the relevant issue before submitting a PR.

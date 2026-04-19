@@ -286,6 +286,8 @@ As organizations evolve, decision rights for data management shift from domain-s
 
 ## Case Study: Data Management Evolution
 
+> **Demonstrative example only.** This is a composite illustration of the maturity progression — not a documented real-world case. Metrics are hypothetical. Real case studies are tracked in [GitHub Issues](../../../issues). Do not cite.
+
 ### Situation
 A multinational organization operated with highly siloed data management practices across finance, customer service, product development, and marketing domains. Each area maintained separate data repositories, used inconsistent definitions, and struggled to share insights across boundaries. This resulted in duplicate efforts, contradictory analyses, and missed opportunities for innovation.
 

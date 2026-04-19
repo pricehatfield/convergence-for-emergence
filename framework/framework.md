@@ -1,24 +1,55 @@
 # Convergence for Emergence Framework
 
 ## Executive Summary
-The Convergence for Emergence (C4E) framework is a systems thinking approach designed to break down silos between technical disciplines, enabling organizations to create emergent capabilities greater than the sum of their individual parts. This framework facilitates innovation at the speed of business by revealing connections and possibilities that remain invisible when domains are viewed in isolation.
+
+Most organizations are already measuring things. FinOps teams track cost efficiency. Security teams run compliance assessments. Engineering orgs measure delivery performance. Each of these produces a valid picture of maturity within a domain — and none of them measures what happens at the boundaries between domains, which is where most organizational value is either created or destroyed.
+
+Convergence for Emergence (C4E) measures that gap. It defines the observable behaviors and artifacts that indicate an organization is operating as a connected system rather than a collection of capable but isolated functions. The measurement unit is convergence maturity: not how good each domain is on its own terms, but how effectively domains interact to produce capabilities that none could produce alone.
+
+An organization with world-class FinOps, strong security posture, and mature engineering delivery can still be at C4E Level 1 if those functions don't interact. That's the condition C4E is designed to detect, track, and improve.
 
 ## Framework Foundation
 
-### Core Principles
-1. **Holistic Systems View**: Technical domains are interconnected parts of a larger system, not standalone entities
-2. **Emergent Innovation**: Novel capabilities arise from the interaction of diverse technical domains
-3. **Value Equilibrium**: Balance between technical excellence, business outcomes, and ethical considerations
-4. **Adaptive Governance**: Flexible oversight that evolves with changing technology and business needs
-5. **Collaborative Problem-Solving**: Cross-functional cooperation for addressing complex challenges
+### What C4E Measures
 
-### Key Domains for Convergence
-- **Financial Operations (FinOps)**: Cost optimization, financial governance, value realization
-- **Security & Compliance**: Application/network security, GRC, legal requirements
-- **Technology Delivery**: Engineering, QA, project management, architecture
-- **Data Management**: Analytics, governance, integration, quality
-- **Ethical Technology**: Responsible AI, privacy protection, sustainable tech
-- **Business Strategy**: Executive vision, market differentiation, customer needs
+C4E assesses convergence through two lenses applied consistently across all domains:
+
+**Behaviors** — what the organization demonstrably does across domain boundaries. Who talks to whom, at what cadence, with what shared vocabulary, and with what decision authority. Behaviors are observable in process artifacts, meeting records, governance structures, and how cross-domain conflicts get resolved.
+
+**Artifacts** — what the organization produces that could only exist through cross-domain collaboration. Shared metrics, integrated roadmaps, joint accountability structures, cross-domain data products, unified governance documents. Artifacts are the evidence that convergence has occurred, not just been discussed.
+
+Both matter. Behaviors without artifacts indicate convergence theater — collaboration that doesn't produce durable outcomes. Artifacts without sustained behaviors indicate one-time integration that won't hold under pressure.
+
+### What C4E Does Not Measure
+
+C4E does not assess domain-specific capability depth. Whether your FinOps practice is good at FinOps, whether your security team meets SLSA requirements, whether your data governance follows DAMA-DMBOK — these are questions for the frameworks those domains already use. C4E takes those domain capabilities as given and asks what they produce together.
+
+Organizations already invested in domain-specific frameworks don't need to abandon them. Domain lenses within C4E describe how existing maturity signals in each domain translate into convergence indicators. Integration guides map specific frameworks (SLSA, DCAM, COBIT, and others) to C4E levels for organizations that want to connect their existing assessments without starting from zero.
+
+### Core Principles
+
+1. **Convergence Produces Emergence**: Capabilities that no single domain can generate alone become possible when domains operate as a connected system. This is the value C4E is designed to create and measure.
+
+2. **Behaviors and Artifacts Over Intentions**: Convergence is assessed by what organizations demonstrably do and produce across domain boundaries — not by stated values, organizational charts, or process documentation that isn't reflected in practice.
+
+3. **The Weakest Boundary Constrains the System**: An organization's convergence maturity is limited by its least-integrated domain boundary. High capability in isolated domains does not compensate for a broken connection between them.
+
+4. **Implementation Independence**: C4E specifies what convergence looks like at each level, not how to achieve it. The same maturity level can be reached through different tools, structures, and approaches depending on organizational context, size, and existing investments.
+
+5. **Progressive and Cumulative**: Each level builds on the behaviors and artifacts of the level before it. Level 3 cannot be sustained without the foundations established at Levels 1 and 2.
+
+### Key Domains
+
+C4E measures convergence across six organizational domains. These are the functions whose intersection produces — or fails to produce — emergent organizational capability:
+
+- **Financial Operations (FinOps)**: Cost visibility, value attribution, financial governance across technical decisions
+- **Security & Compliance**: Risk management, regulatory adherence, trust infrastructure across the organization
+- **Technology Delivery**: Engineering, QA, architecture, and the systems that turn intent into working product
+- **Data & Knowledge**: Data as organizational substrate; how knowledge is represented, governed, and flows across boundaries
+- **Ethical Technology**: Responsible AI, privacy, and the values guardrails embedded in technical systems and decisions
+- **Business Strategy**: How market intent, customer need, and executive direction connect to — and are informed by — technical capability
+
+Domain lenses describe the specific behaviors and artifacts expected from each domain at each maturity level. They are written for practitioners in those functions: the FinOps lens answers what a FinOps team does differently at Level 3 than at Level 2, not how to run a FinOps program.
 
 ## Maturity Model
 

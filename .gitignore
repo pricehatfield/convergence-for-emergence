@@ -1,0 +1,16 @@
+# Scripts (run locally, not part of the collaborative content)
+*.sh
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor artifacts
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak

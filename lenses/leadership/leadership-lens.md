@@ -201,6 +201,8 @@
 
 ## Case Study: Leadership Evolution
 
+> **Demonstrative example only.** This is a composite illustration of the maturity progression — not a documented real-world case. Metrics are hypothetical. Real case studies are tracked in [GitHub Issues](../../../issues). Do not cite.
+
 ### Situation
 A technology organization had strong domain expertise but struggled with integration across security, financial operations, and product development. Each domain operated with different priorities, metrics, and perspectives, leading to frequent conflicts and suboptimal outcomes.
 
