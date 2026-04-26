@@ -79,6 +79,22 @@ Clarify how roles, responsibilities, and timelines scale across small (<500 empl
 
 ---
 
+## 🛡️ Governance Lenses — AI Service Adoption
+
+### [25] Write integrations files for Compliance, Legal, and FinOps lenses
+New lenses need corresponding integrations files following the pattern established by ethics-integrations.md and hr-training-integrations.md.
+
+### [26] Update HR & Training lens to reflect AI service accountability framing
+The HR lens governs the biological workforce. Add explicit treatment of how HR embeds AI service accountability into role definitions, performance criteria, and practitioner development — the human-side complement to Compliance/Legal governance of the instruments themselves.
+
+### [27] Create cross-lens governance overview
+Compliance, Legal, HR, and FinOps operate as a system around AI service governance. A short overview explaining how they interact — and why accountability for AI service behavior always lands on human practitioners — would help practitioners understand the model as a whole. This is also where cross-domain risk aggregation belongs: as an emergent property of lens integration at Level 3–4, not a standalone function.
+
+### [28] Build Security lens
+Security is a named core domain with established external frameworks (NIST CSF, CIS Controls, SLSA — already referenced in C4E onboarding). Lens should map C4E levels to those frameworks rather than duplicate them, and address AI service security governance as a distinct thread.
+
+---
+
 ## ⚖️ Ethics Integration
 
 ### [18] Develop ethics governance as "conscience of the company"

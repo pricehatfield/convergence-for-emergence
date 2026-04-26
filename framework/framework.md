@@ -51,6 +51,28 @@ C4E measures convergence across six organizational domains. These are the functi
 
 Domain lenses describe the specific behaviors and artifacts expected from each domain at each maturity level. They are written for practitioners in those functions: the FinOps lens answers what a FinOps team does differently at Level 3 than at Level 2, not how to run a FinOps program.
 
+### Two Organizational Journeys
+
+C4E was built observing a specific pattern: organizations develop biological workforces, silos form along functional lines, cross-domain coordination breaks down at scale, and scaffolding is eventually built to address it. FinOps, DevSecOps, Agile, and similar movements each addressed this coordination problem within their domains. The middle maturity levels — Levels 2 and 3 — exist to describe the hard work of building that scaffolding: developing shared vocabulary, aligning incentives, creating cross-functional structures that survive organizational pressure.
+
+That journey is real and C4E maps to it. But it is no longer the only journey.
+
+**The AI-native organization** begins differently. A founder operating primarily with AI services as their workforce doesn't inherit the coordination problems that scaffolding was designed to solve — because there are no biological functions to coordinate yet. What they face instead is a constraint that traditional founders never had: the workforce *requires* explicit values encoding from the start. An AI service doesn't infer intent, doesn't absorb culture through proximity, doesn't adapt to what the founder would have wanted. It executes what it's given.
+
+This forces an outcome that traditional organizations spend Levels 2 and 3 trying to achieve: values externalized from the founder's head into the systems that operate on the organization's behalf. Not as a governance initiative, but as a prerequisite for the workforce to function at all. The AI-native founder writes system prompts, defines scope, sets constraints, establishes behavioral parameters — and in doing so, performs the values operationalization that biological organizations don't reach until Level 3 or 4. Involuntarily. From day one.
+
+The leapfrog is not sophistication — it's necessity. And the result is real.
+
+**The two hard problems that remain for the AI-native org are at the endpoints, not the middle:**
+
+At the start: encoding values into systems *well*, not just functionally. There is a significant difference between a system prompt that gets the behavior you wanted today and one that holds coherent values across novel situations, at scale, over time. Most early encoding is the former. Getting to the latter is the Level 1 problem for AI-native organizations — and it's harder than it looks.
+
+At scale: maintaining coherence as humans join. The first human employee walks into an organization whose culture lives primarily in system configuration they can't read. The AI workforce is coherent; the human onboarding is a Level 1 problem the organization has never had to solve. The values that were embedded in systems need to be surfaced, documented, and transmitted to biological team members in forms they can understand and reinforce.
+
+**What this means for the framework:** the maturity levels describe the same destination from two different starting points. For the traditional org, the journey is left to right — values that exist implicitly in human culture get progressively embedded in systems and governance. For the AI-native org, the journey starts at the right and loops back — values embedded in systems need to be made legible to the humans who join later, and the governance scaffolding the middle levels describe gets built in reverse order, pulled by growth rather than pushed by planning.
+
+The principles that make either journey work — values persistence, explicit accountability, convergence across domains — are the same. The sequence is not.
+
 ## Maturity Model
 
 ### Level 1: Siloed Operation
