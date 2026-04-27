@@ -4,7 +4,7 @@ Derived from `Framework Critique.md` and the `Next Steps` sections across framew
 
 ---
 
-## 🏗️ Framework Foundations
+##  Framework Foundations
 
 ### [1] Remove unrealistic implementation timelines
 The current framework specifies fixed-duration phases (e.g., "2–3 months", "6–12 months"). These need to be replaced with guidance that acknowledges transformation pace varies significantly by organization size, culture, and starting maturity. Reference: DevOps and FinOps adoption data shows multi-year real-world timelines even in high-readiness organizations.
@@ -17,7 +17,7 @@ Not all organizations can begin at the same entry point. Identify 2–3 concrete
 
 ---
 
-## 📏 Measurement & Feedback
+##  Measurement & Feedback
 
 ### [4] Operationalize abstract metrics
 Metrics like "Collaboration Index," "Knowledge Flow," and "Boundary Permeability" are directionally useful but not yet measurable. Define concrete data collection methods, scoring rubrics, and baseline-setting processes for each metric.
@@ -30,7 +30,7 @@ Specify how often organizations should reassess maturity level, what triggers an
 
 ---
 
-## 👥 People, Culture & Governance
+##  People, Culture & Governance
 
 ### [7] Develop culture sections for each maturity level
 Each maturity level currently describes structural characteristics but not cultural ones. Add descriptions of the prevailing mindset, resistance patterns, and cultural signals visible at Levels 1–5.
@@ -46,7 +46,7 @@ Current framework leaves ambiguous where convergence roles sit organizationally.
 
 ---
 
-## 🔧 Technical Implementation
+##  Technical Implementation
 
 ### [11] Expand tooling and integration guidance
 Provide concrete guidance on the technical architecture required to support each maturity level — including data alignment across systems, integration patterns, and tooling evolution from Level 1 through Level 5.
@@ -56,7 +56,7 @@ Create guidance for organizations navigating existing technical constraints (reg
 
 ---
 
-## 🌍 External Factors & Applicability
+##  External Factors & Applicability
 
 ### [13] Develop observable symptom lists for each maturity level
 Create a list of customer-facing and market-visible symptoms that should improve as organizations progress through maturity levels. This makes the framework tangible to executives and customers alike.
@@ -66,7 +66,7 @@ The current framework assumes a Western, individualistic organizational culture.
 
 ---
 
-## 📚 Case Studies & Ecosystem
+##  Case Studies & Ecosystem
 
 ### [15] Develop initial case studies
 Using the existing case study template, document 2–3 real or composite case studies covering different organization sizes and industries. Include failures and recovery — not just successes.
@@ -79,7 +79,7 @@ Clarify how roles, responsibilities, and timelines scale across small (<500 empl
 
 ---
 
-## 🛡️ Governance Lenses — AI Service Adoption
+##  Governance Lenses — AI Service Adoption
 
 ### [25] Write integrations files for Compliance, Legal, and FinOps lenses
 New lenses need corresponding integrations files following the pattern established by ethics-integrations.md and hr-training-integrations.md.
@@ -95,7 +95,7 @@ Security is a named core domain with established external frameworks (NIST CSF, 
 
 ---
 
-## ⚖️ Ethics Integration
+##  Ethics Integration
 
 ### [18] Develop ethics governance as "conscience of the company"
 Position the ethics component as an externalization of leadership values and a waste-reduction mechanism — not a prescriptive cultural overlay. Research integration points with existing ethics frameworks (IEEE Ethically Aligned Design, B Corp standards, etc.).
@@ -105,7 +105,7 @@ Define what transparency looks like at each maturity level and how ethics govern
 
 ---
 
-## 🛠️ Tooling & Community
+##  Tooling & Community
 
 ### [20] Build maturity self-assessment tool
 Create an interactive assessment instrument (web or worksheet) that organizations can use to score themselves against the maturity model and receive prioritized next-step recommendations.
@@ -121,7 +121,7 @@ Create supplementary guides for the six key domains (FinOps, Security & Complian
 
 ---
 
-## 📖 Training & Enablement
+##  Training & Enablement
 
 ### [24] Create systems thinking curriculum
 Develop a training program for building convergence skills at each organizational level — from individual contributors to executive sponsors. Include both conceptual foundation and applied workshop formats.
